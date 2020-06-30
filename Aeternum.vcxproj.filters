@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Common.cpp" />
+    <ClCompile Include="Logger.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Bypass.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DRenderer.cpp">
+      <Filter>D3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooking.cpp">
+      <Filter>D3D</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>D3D\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>D3D\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx11.cpp">
+      <Filter>D3D\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
+      <Filter>D3D\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>D3D\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Core.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\Include\License\License.cpp">
+      <Filter>License</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\Include\License\auth\hwid.cpp">
+      <Filter>License</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\Include\License\auth\validation.cpp">
+      <Filter>License</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\Include\License\crypto\base64.cpp">
+      <Filter>License</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\Include\License\crypto\sealedbox.cpp">
+      <Filter>License</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\Include\License\http\http.cpp">
+      <Filter>License</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\Include\License\injector\injector.cpp">
+      <Filter>License</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common.hpp" />
+    <ClInclude Include="Logger.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.hpp" />
+    <ClInclude Include="Bypass.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DRenderer.hpp">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooking.hpp">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>D3D\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>D3D\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx11.h">
+      <Filter>D3D\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_win32.h">
+      <Filter>D3D\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>D3D\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>D3D\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>D3D\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>D3D\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Spoof.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\Include\License\License.hpp">
+      <Filter>License</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\Include\License\requirements.hpp">
+      <Filter>License</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\Include\License\auth\hwid.hpp">
+      <Filter>License</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\Include\License\auth\validation.hpp">
+      <Filter>License</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\Include\License\crypto\base64.hpp">
+      <Filter>License</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\Include\License\crypto\sealedbox.hpp">
+      <Filter>License</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\Include\License\crypto\xorstr.hpp">
+      <Filter>License</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\Include\License\http\http.hpp">
+      <Filter>License</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\Include\License\http\write_callbacks.hpp">
+      <Filter>License</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\Include\License\injector\injector.hpp">
+      <Filter>License</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\Include\License\crypto\skCrypter.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{4b8d1ced-578e-4652-a45e-916708f9e8d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{3ae024bc-e0fa-4bc7-94f1-13ab2eb76703}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D">
+      <UniqueIdentifier>{5df09c78-dd1b-41a4-958e-5291ceb4e936}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D\ImGui">
+      <UniqueIdentifier>{caf23d07-816f-4f08-bb02-ef3249640b8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="License">
+      <UniqueIdentifier>{9ab68ad6-47fe-4372-bd36-9dc395967ef3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="Spoof.asm">
+      <Filter>Utils</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>
