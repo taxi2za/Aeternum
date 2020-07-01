@@ -1,5 +1,8 @@
 #pragma once
 
+//# DO NOT C&P IF U DUNNO HOW TO USE IT
+//> he4rtbleed - https://github.com/he4rtbleed/Aeternum
+
 #define _CRT_SECURE_NO_WARNINGS
 #define NOMINMAX
 #define WIN32_LEAN_AND_MEAN

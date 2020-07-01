@@ -1,5 +1,8 @@
 #pragma once
 
+//# DO NOT C&P IF U DUNNO HOW TO USE IT
+//> he4rtbleed - https://github.com/he4rtbleed/Aeternum
+
 #define M_PI		3.14159265358979323846
 #define M_PI_F		((float)(M_PI))
 #define DEG2RAD(x)  ( (float)(x) * (float)(M_PI_F / 180.f) )

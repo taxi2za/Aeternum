@@ -6,6 +6,9 @@
 #include <License/License.hpp>
 #include <VMProtectSDK.h>
 
+//# DO NOT C&P IF U DUNNO HOW TO USE IT
+//> he4rtbleed - https://github.com/he4rtbleed/Aeternum
+
 void MainThread()
 {
 	VMProtectBeginUltra("MainThread");
@@ -41,7 +44,7 @@ void MainThread()
 
 		g_Bypass = std::make_unique<Bypass>();
 		g_Bypass->RemovePeHeader(g_Module);
-		auto moduleStr = skCrypt("Overwatch.exe");
+		auto moduleStr = skCrypt(CENSORED);
 		g_Bypass->Remap(moduleStr);
 		moduleStr.clear();
 		g_Bypass->DisableIntegrityChecks();

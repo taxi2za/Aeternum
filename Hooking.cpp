@@ -4,6 +4,9 @@
 #include <MinHook/MinHook.h>
 #include "Core.hpp"
 
+//# DO NOT C&P IF U DUNNO HOW TO USE IT
+//> he4rtbleed - https://github.com/he4rtbleed/Aeternum
+
 #ifdef AETERNUM_DEBUG
 #  pragma comment(lib, "MinHook-Debug.lib")
 #else

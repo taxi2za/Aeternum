@@ -1,6 +1,9 @@
 ﻿#pragma once
 #include "D3DRenderer.hpp"
 
+//# DO NOT C&P IF U DUNNO HOW TO USE IT
+//> he4rtbleed - https://github.com/he4rtbleed/Aeternum
+
 #define InRange(val) (val >= dwGameBase && val <= dwGameBase + 0x9000000)
 
 namespace Aeternum

@@ -1,6 +1,9 @@
 #pragma once
 #include "Memory.hpp"
 
+//# DO NOT C&P IF U DUNNO HOW TO USE IT
+//> he4rtbleed - https://github.com/he4rtbleed/Aeternum
+
 #define UNLINK(x)					\
 	(x).Flink->Blink = (x).Blink;	\
 	(x).Blink->Flink = (x).Flink;
